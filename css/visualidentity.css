@@ -1,0 +1,143 @@
+body{
+    font-family: 'Jost', Robotto, sans-serif;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    display:flexbox;
+    flex-direction: row;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 20px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.822);
+}
+.nav li{
+    list-style-type: none;
+    color: #707070;
+    font-size: 20px;
+    float: right;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 10px; 
+}
+.navigationbar{
+    margin-right: 160px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #707070;
+}
+#navBar{
+    justify-content: flex-end;
+}
+#homeicon{
+    margin-top: 10px;
+    margin-left: 138px;
+    cursor: pointer;
+    animation: home 2s;
+}
+@keyframes home{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+#homeicon a:hover{
+    box-shadow: 0 3px 6px #00000029;
+}
+.nav li a:hover{
+    color: #5EAAB0;
+}
+#nav1, #nav2, #nav3{
+    animation: navbar 2s;
+}
+
+@keyframes navbar{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/*header*/
+#header-1{
+    width: auto;
+    position: relative;
+    top: 130px;
+    background-color: #5EAAB0;
+    height: 367px;
+    align-items: center;
+    text-align: center;
+    animation: header 1.5s;
+}
+@keyframes header{
+    from{
+        height: 1px;
+    }
+    to{
+        height: 367px;
+    }
+}
+.header img{
+    width: 127px;
+    margin-top: 90px;
+    animation: image 1s;
+}
+@keyframes image{
+    from{
+        transform: translateY(-700px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.header hr{
+    border: 1px solid #D8AB86;
+    width: 180px;
+    position: absolute;
+    top: 230px;
+    left: 625px;
+    animation: line 1s;
+}
+@keyframes line{
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.header h2{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    animation: ux 1s;
+}
+@keyframes ux{
+    from{
+        letter-spacing: 20px;
+        opacity:0
+    }
+    to{
+        letter-spacing: 0;
+        opacity:1;
+    }
+}
+.error{
+    position: absolute;
+    top: 600px;
+    left: 550px;
+}

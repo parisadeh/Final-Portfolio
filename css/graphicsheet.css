@@ -1,0 +1,342 @@
+body{
+    font-family: 'Jost', Robotto, sans-serif;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    display:flexbox;
+    flex-direction: row;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 20px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.822);
+}
+.nav li{
+    list-style-type: none;
+    color: #707070;
+    font-size: 20px;
+    float: right;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 10px; 
+}
+.navigationbar{
+    margin-right: 160px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #707070;
+}
+#navBar{
+    justify-content: flex-end;
+}
+#homeicon{
+    margin-top: 10px;
+    margin-left: 138px;
+    cursor: pointer;
+    animation: home 2s;
+}
+@keyframes home{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+#homeicon a:hover{
+    box-shadow: 0 3px 6px #00000029;
+}
+.nav li a:hover{
+    color: #5EAAB0;
+}
+#nav1, #nav2, #nav3{
+    animation: navbar 2s;
+}
+
+@keyframes navbar{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/*header*/
+#header-1{
+    width: auto;
+    position: relative;
+    top: 130px;
+    background-color: #5EAAB0;
+    height: 367px;
+    align-items: center;
+    text-align: center;
+    animation: header 1.5s;
+}
+@keyframes header{
+    from{
+        height: 1px;
+    }
+    to{
+        height: 367px;
+    }
+}
+.header img{
+    width: 127px;
+    margin-top: 90px;
+    animation: image 1s;
+}
+@keyframes image{
+    from{
+        transform: translateY(-700px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.header hr{
+    border: 1px solid #D8AB86;
+    width: 180px;
+    position: absolute;
+    top: 230px;
+    left: 625px;
+    animation: line 1s;
+}
+@keyframes line{
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.header h2{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    animation: ux 1s;
+}
+@keyframes ux{
+    from{
+        letter-spacing: 20px;
+        opacity:0
+    }
+    to{
+        letter-spacing: 0;
+        opacity:1;
+    }
+}
+.error{
+    position: absolute;
+    top: 700px;
+    left:200px;
+}
+
+/*buttons*/
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 0 350px;
+   justify-content: space-between;
+   text-align: center;
+   justify-items: center;
+   width: auto;
+   height: 260px;
+   cursor: pointer;
+   background-color: white;
+}
+.buttons img{
+    width: 105px;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 100%;
+    border: 0 solid white;
+}
+.buttons p{
+    color: #AC774C;
+}
+.overlay , .overlay2 , .overlay3{
+    opacity:0;
+    
+}
+.logos:hover .overlay{
+opacity:1;
+}
+.overlay{
+    position: absolute;
+    top:0px;
+    left:0px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.overlay p{
+    color:  #5EAAB0;
+    font-weight: bold;
+}
+.overlay a{
+    text-decoration: none;
+}
+
+.logos, .visual, .layout{
+    margin-right: 100px;
+}
+.logos{
+    animation: ux 1s;
+    position: absolute;
+   top: 540px;
+   left:400px;
+}
+@keyframes ux{
+    from{
+        top: 800px;
+    }
+    to{
+        top: 540px;
+    } 
+}
+.visual:hover .overlay2{
+    opacity:1;
+    }
+    .overlay2{
+        position: absolute;
+        top:0px;
+        left:0px;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+    .overlay2 p{
+        color:  #5EAAB0;
+        font-weight: bold;
+    }
+    .overlay2 a{
+        text-decoration: none;
+    }
+.visual{
+    animation: graphic 1.5s;
+    position: absolute;
+   top: 540px;
+   left:650px;
+}
+@keyframes graphic{
+    from{
+        top: 900px;
+    }
+    to{
+        top: 540px;
+    } 
+}
+.layout:hover .overlay3{
+    opacity:1;
+    }
+    .overlay3{
+        position: absolute;
+        top:0px;
+        left:0px;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+    .overlay3 p{
+        color:  #5EAAB0;
+        font-weight: bold;
+    }
+    .overlay3 a{
+        text-decoration: none;
+    }
+.layout{
+    animation: motion 2s;
+    position: absolute;
+   top: 540px;
+   left:900px;
+}
+@keyframes motion{
+    from{
+        top: 1000px;
+    }
+    to{
+        top: 540px;
+    } 
+}
+
+
+
+
+
+
+
+/*footer*/
+
+.contact{
+    display: flexbox;
+    position: absolute;
+    width: 100%;
+    height:451px;
+    top:740px;
+    text-align: center;
+    background-color:  #5EAAB0;
+}
+.contact hr{
+    border: 1px solid #D8AB86;
+    width: 140px;
+    position: absolute;
+    top: 60px;
+    left: 640px;
+}
+.contact h2{
+    margin-top: 30px;
+    color: white;
+}
+.contact h1{
+    position: absolute;
+    top: 80px;
+    left: 630px;
+}
+.contact p{
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    left: 480px;
+    top: 150px;
+}
+#tell p{
+    position: absolute;
+    left: 480px;
+    top: 250px;
+}
+#tell img{
+    position: absolute;
+    left: 640px;
+    top: 265px;
+}
+#email p{
+    position: absolute;
+    left: 480px;
+    top: 280px;
+}
+#email img{
+    position: absolute;
+    left: 600px;
+    top:295px;
+}
+#socialmedia{
+    display:inline-flex;
+    position: absolute;
+    left: 640px;
+    top: 360px;
+    cursor: pointer;
+}
+#socialmedia img{
+    margin: 10px;
+}
+
+
+
