@@ -338,7 +338,7 @@ html{
 @media screen and (max-width:600px){
     .nav li{
         font-size: 15px;
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: 10px; 
     }
     .navigationbar{
@@ -346,55 +346,55 @@ html{
     }
     #homeicon{
         margin-top: 0px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .header hr{
         width: 140px;
         position: absolute;
         top: 230px;
-        left: 180px;
+        left: 140px;
     }
 
     #quail img{
         position: absolute;
         top: 550px;
-        left: 88px;
+        left: 50px;
     }
     .overflow{
         position: absolute;
         top: 550px;
-        left: 88px;
+        left: 50px;
     }
     #mojo img{
         position: absolute;
         top: 940px;
-        left: 88px;
+        left: 50px;
     }
     .overflow1{
         position: absolute;
         top: 940px;
-        left: 88px;
+        left: 50px;
     }
 
     #epa img{
         position: absolute;
         top: 1330px;
-        left: 88px;
+        left: 50px;
     }
     .overflow2{
         position: absolute;
         top: 1330px;
-        left: 88px;
+        left: 50px;
     }
     #cofas img{
         position: absolute;
         top: 1720px;
-        left: 88px;
+        left: 50px;
     }
     .overflow3{
         position: absolute;
         top: 1720px;
-        left: 88px;
+        left: 50px;
     }
     /*footer*/
     .contact{
@@ -403,41 +403,41 @@ html{
         top:2110px;
     }
     .contact hr{
-        left: 170px;
+        left: 140px;
     }
     .contact h1{
         position: absolute;
         top: 80px;
-        left: 160px;
+        left: 130px;
     }
     .contact p{
         width: 300px;
-        left: 90px;
+        left: 55px;
         top: 150px;
     }
     #tell p{
         position: absolute;
-        left: 115px;
+        left: 80px;
         top: 270px;
     }
     #tell img{
         position: absolute;
-        left: 165px;
+        left: 140px;
         top: 285px;
     }
     #email p{
         position: absolute;
-        left: 120px;
+        left: 80px;
         top: 310px;
     }
     #email img{
         position: absolute;
-        left: 130px;
+        left: 100px;
         top:328px;
     }
     #socialmedia{
         position: absolute;
-        left: 160px;
+        left: 140px;
         top: 380px;
     } 
     
