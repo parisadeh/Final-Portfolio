@@ -395,3 +395,211 @@ button:hover{
 #socialmedia img{
     margin: 10px;
 }
+
+/*media quary*/
+@media screen and (max-width:600px){
+
+    .nav li{
+        font-size: 15px;
+        margin-left: 40px;
+        margin-top: 10px; 
+    }
+    .navigationbar{
+        margin-right: 80px;
+    }
+    #homeicon{
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .Header{
+        width: auto;
+        position: relative;
+        top: 120px;
+        text-align: center;
+    }
+    
+    #header-1{
+        height: 367px;
+    }
+    .header h2{
+        top: 150px;
+        left: 85px; 
+    }
+    .header hr{
+        width: 140px;
+        position: absolute;
+        top: 200px;
+        left: 60px;
+    }
+    .header img{
+        float: right;
+        position: absolute;
+        width: 400px;
+        top: 19px;
+        left: 120px;
+       
+    }
+    .header p{
+        width: 380px;
+        margin: 20px;
+        position: absolute;
+        left: 40px;
+        top: 380px;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .paragraph{
+        width: 380px;
+        margin: 20px;
+        position: absolute;
+        top:652px;
+        left: 40px;
+        font-size: 15px;
+    }
+
+    .Techskills h2{
+        position: absolute;
+        left: 210px;
+        top: 1250px;
+    }
+    .Techskills hr{
+        top: 1300px;
+        left: 190px;
+    }
+    #left{
+        position: absolute;
+        top: 1330px;
+        left: 40px;
+    }
+    #right{
+        position: absolute;
+        top: 1330px;
+        left: 250px;
+    }
+    .strength h2{
+        position: absolute;
+        left: 170px;
+        top: 1480px;
+    }
+    .strength hr{
+        position: absolute;
+        top: 1530px;
+        left: 190px;
+    }
+    
+    #leftpart{
+        position: absolute;
+        top: 1560px;
+        left: 40px;
+    }
+    #rightpart{
+        position: absolute;
+        top: 1560px;
+        left: 250px;
+    }
+
+    .education h2{
+        position: absolute;
+        left: 200px;
+        top: 1730px;
+    }
+    .education hr{
+        border: 1px solid #D8AB86;
+        width: 140px;
+        position: absolute;
+        top: 1780px;
+        left: 175px;
+    }
+    .title h2{
+        font-weight: bold;
+        position: absolute;
+        top: 1800px;
+        left:0px;
+        width: 100%;
+        text-align: center;
+    }
+    .title p{
+        position: absolute;
+        top: 1840px;
+        width: 100%;
+    }
+    .title1 h2{
+        font-weight: bold;
+        position: absolute;
+        top: 1880px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .title1 p{
+        position: absolute;
+        top: 1920px;
+        width: 100%;
+    }
+    .title2 h2{
+        font-weight: bold;
+        position: absolute;
+        top: 1960px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .title2 p{
+        position: absolute;
+        top: 2000px;
+        width: 100%;
+    }
+    button{
+        position: absolute;
+        top: 2100px;
+        left: 150px;
+    }
+
+
+    /*footer*/
+    .contact{
+        width: 100%;
+        height:500px;
+        top:2200px;
+    }
+    .contact hr{
+        left: 170px;
+    }
+    .contact h1{
+        position: absolute;
+        top: 80px;
+        left: 160px;
+    }
+    .contact p{
+        width: 300px;
+        left: 90px;
+        top: 150px;
+    }
+    #tell p{
+        position: absolute;
+        left: 115px;
+        top: 270px;
+    }
+    #tell img{
+        position: absolute;
+        left: 165px;
+        top: 285px;
+    }
+    #email p{
+        position: absolute;
+        left: 120px;
+        top: 310px;
+    }
+    #email img{
+        position: absolute;
+        left: 130px;
+        top:328px;
+    }
+    #socialmedia{
+        position: absolute;
+        left: 160px;
+        top: 380px;
+    } 
+    
+}
