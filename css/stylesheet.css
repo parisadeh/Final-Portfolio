@@ -376,7 +376,7 @@ opacity:1;
 
     .nav li{
         font-size: 15px;
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: 10px; 
     }
     .navigationbar{
@@ -384,7 +384,7 @@ opacity:1;
     }
     #homeicon{
         margin-top: 0px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .Header{
@@ -405,12 +405,15 @@ opacity:1;
     .Header h1{
         top: 0px;
         position: relative;
+        left:8px;
     }
     .Header h2{
         top: -10px;
+        font-size: 25px;
+        font-weight: bold;
     }
     .paragraph{
-        width: 400px;
+        width: 330px;
         position: relative;
         left: 40px;
         top: -20px;
@@ -418,7 +421,7 @@ opacity:1;
     button{
         position: absolute;
         top: 280px;
-        left: 135px;
+        left: 112px;
     }
     .buttons{
         display: flex;
@@ -434,18 +437,18 @@ opacity:1;
     .ux{
        position: absolute;
        top: 540px;
-       left:40px;
+       left:20px;
     }
     .graphic{
        position: absolute;
        top: 540px;
-       left:190px;
+       left:160px;
     }
    
     .motion{
        position: absolute;
        top: 540px;
-       left:340px;
+       left:300px;
     }
 /*footer*/
     .contact{
@@ -453,41 +456,41 @@ opacity:1;
         height:500px;
     }
     .contact hr{
-        left: 170px;
+        left: 150px;
     }
     .contact h1{
         position: absolute;
         top: 80px;
-        left: 160px;
+        left: 130px;
     }
     .contact p{
         width: 300px;
-        left: 90px;
+        left: 55px;
         top: 150px;
     }
     #tell p{
         position: absolute;
-        left: 115px;
+        left: 90px;
         top: 270px;
     }
     #tell img{
         position: absolute;
-        left: 165px;
+        left: 140px;
         top: 285px;
     }
     #email p{
         position: absolute;
-        left: 120px;
+        left: 90px;
         top: 310px;
     }
     #email img{
         position: absolute;
-        left: 130px;
+        left: 110px;
         top:328px;
     }
     #socialmedia{
         position: absolute;
-        left: 160px;
+        left: 140px;
         top: 380px;
     } 
 }
