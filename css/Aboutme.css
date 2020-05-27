@@ -433,7 +433,7 @@ button:hover{
         position: absolute;
         width: 400px;
         top: 19px;
-        left: 70px;
+        left: 60px;
        
     }
     .header p{
@@ -582,7 +582,7 @@ button:hover{
     }
     #tell img{
         position: absolute;
-        left: 120px;
+        left: 140px;
         top: 285px;
     }
     #email p{
