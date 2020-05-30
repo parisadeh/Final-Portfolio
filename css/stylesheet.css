@@ -380,18 +380,18 @@ opacity:1;
         margin-top: 10px; 
     }
     .navigationbar{
-        margin-right: 80px;
+        margin-right: 50px;
     }
     #homeicon{
         margin-top: 0px;
-        margin-left: 30px;
+        margin-left: 0px;
     }
-
     .Header{
         width: auto;
         position: relative;
         top: 120px;
         text-align: center;
+        
     }
     #headerPart{
         height: 367px;
@@ -413,60 +413,73 @@ opacity:1;
         font-weight: bold;
     }
     .paragraph{
-        width: 330px;
+        width: 60%; 
+        display:flex;
+        text-align: center; 
         position: relative;
-        left: 40px;
         top: -20px;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
     }
     button{
-        position: absolute;
-        top: 280px;
-        left: 112px;
+        position: relative;
+        top: 40px;
+        left: 0px;
     }
     .buttons{
-        display: flex;
-        flex-direction: column;
-        margin: 0 50px;
-       width: 400px;
+       display:inline-flexbox;
+       width:60%;
        height: auto;
-
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .buttons img{
+        width: 85px;
     }
     .ux, .graphic, .motion{
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .ux{
-       position: absolute;
-       top: 540px;
-       left:20px;
+       position: relative;
+       top: 180px;
+       left:0px;
     }
     .graphic{
-       position: absolute;
-       top: 540px;
-       left:160px;
+       position: relative;
+       top: 180px;
+       left:auto;
     }
    
     .motion{
-       position: absolute;
-       top: 540px;
-       left:300px;
+       position: relative;
+       top: 180px;
+       left:auto;
     }
 /*footer*/
     .contact{
         width: 100%;
         height:500px;
+        text-align: center;
     }
     .contact hr{
-        left: 150px;
+        width: 120px;
+        position: relative;
+        top: -18px;
+        left: auto;
     }
     .contact h1{
-        position: absolute;
-        top: 80px;
-        left: 130px;
+        position: relative;
+        top: 0px;
+        left: 0px;
     }
     .contact p{
-        width: 300px;
-        left: 55px;
-        top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        position: relative;
+        left: auto;
+        top: 10px;
     }
     #tell p{
         position: absolute;
@@ -489,8 +502,8 @@ opacity:1;
         top:328px;
     }
     #socialmedia{
-        position: absolute;
-        left: 140px;
-        top: 380px;
+        position: relative;
+        left: 0px;
+        top: 120px;
     } 
 }
