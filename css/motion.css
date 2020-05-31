@@ -95,6 +95,7 @@ html{
 .header img{
     width: 127px;
     margin-top: 90px;
+    margin-bottom: 10px;
     animation: image 1s;
 }
 @keyframes image{
@@ -108,9 +109,6 @@ html{
 .header hr{
     border: 1px solid #D8AB86;
     width: 180px;
-    position: absolute;
-    top: 230px;
-    left: 620px;
     animation: line 1s;
 }
 @keyframes line{
@@ -125,7 +123,8 @@ html{
     color: white;
     font-size: 25px;
     font-weight: bold;
-    margin-top: 30px;
+    position: relative;
+    top: -10px;
     animation: ux 1s;
 }
 @keyframes ux{
