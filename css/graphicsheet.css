@@ -106,7 +106,9 @@ html{
 }
 .header hr{
     border: 1px solid #D8AB86;
-    width: 180px;
+    width: 10%;
+    position: relative;
+    top: 0;
     animation: line 1s;
 }
 @keyframes line{
@@ -123,9 +125,9 @@ html{
     font-weight: bold;
     position: relative;
     top: -10px;
-    animation: ux 1s;
+    animation: text 1s;
 }
-@keyframes ux{
+@keyframes text{
     from{
         letter-spacing: 20px;
         opacity:0
@@ -135,14 +137,8 @@ html{
         opacity:1;
     }
 }
-.error{
-    position: absolute;
-    top: 700px;
-    left:200px;
-}
 
 /*buttons*/
-
 .buttons{
     display: flex;
     flex-direction: row;
@@ -166,8 +162,9 @@ html{
 }
 .overlay , .overlay2 , .overlay3{
     opacity:0;
-    
+
 }
+
 .logos:hover .overlay{
 opacity:1;
 }
@@ -192,15 +189,15 @@ opacity:1;
 .logos{
     animation: ux 1s;
     position: absolute;
-   top: 540px;
-   left:400px;
+   top: 75%;
+   left:30%;
 }
 @keyframes ux{
     from{
-        top: 800px;
+        top: 120%;
     }
     to{
-        top: 540px;
+        top: 75%;
     } 
 }
 .visual:hover .overlay2{
@@ -223,15 +220,15 @@ opacity:1;
 .visual{
     animation: graphic 1.5s;
     position: absolute;
-   top: 540px;
-   left:650px;
+    top: 75%;
+    left:46%;
 }
 @keyframes graphic{
     from{
-        top: 900px;
+        top: 120%;
     }
     to{
-        top: 540px;
+        top: 75%;
     } 
 }
 .layout:hover .overlay3{
@@ -254,15 +251,15 @@ opacity:1;
 .layout{
     animation: motion 2s;
     position: absolute;
-   top: 540px;
-   left:900px;
+    top: 75%;
+    left:63%;
 }
 @keyframes motion{
     from{
-        top: 1000px;
+        top: 120%;
     }
     to{
-        top: 540px;
+        top: 75%;
     } 
 }
 
@@ -272,162 +269,59 @@ opacity:1;
     display: flexbox;
     position: absolute;
     width: 100%;
-    height:451px;
+    height:450px;
     top:740px;
     text-align: center;
     background-color:  #5EAAB0;
 }
 .contact hr{
     border: 1px solid #D8AB86;
-    width: 140px;
-    position: absolute;
-    top: 60px;
-    left: 640px;
+    width: 10%;
+    position: relative;
+    top: -3%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .contact h2{
     margin-top: 30px;
     color: white;
 }
-.contact h1{
-    position: absolute;
-    top: 80px;
-    left: 630px;
-}
+
 .contact p{
-    width: 500px;
+    width: 35%;
     text-align: center;
-    position: absolute;
-    left: 480px;
-    top: 150px;
+    margin-right: auto;
+    margin-left: auto;
 }
-#tell p{
-    position: absolute;
-    left: 480px;
-    top: 250px;
+.tell{
+    display:flex;
 }
-#tell img{
-    position: absolute;
-    left: 640px;
-    top: 265px;
+.row{
+    margin-right: auto;
+    margin-left: auto;
 }
-#email p{
-    position: absolute;
-    left: 480px;
-    top: 280px;
+.row img{
+    vertical-align: middle;
 }
-#email img{
-    position: absolute;
-    left: 600px;
-    top:295px;
+.row h3{
+    display: inline-flex;
+    font-size: 18px;
 }
+
+.email{
+    display: flex;
+    position: relative;
+    top: -5%;
+ }
+ 
+
 #socialmedia{
     display:inline-flex;
-    position: absolute;
-    left: 640px;
-    top: 360px;
     cursor: pointer;
 }
 #socialmedia img{
     margin: 10px;
 }
 
-/*media quary*/
-@media screen and (max-width:600px){
 
-    .nav li{
-        font-size: 15px;
-        margin-left: 30px;
-        margin-top: 10px; 
-    }
-    .navigationbar{
-        margin-right: 80px;
-    }
-    #homeicon{
-        margin-top: 0px;
-        margin-left: 30px;
-    }
-
-    .header{
-        width: auto;
-        position: relative;
-        top: 120px;
-        text-align: center;
-    }
-    #headerPart{
-        height: 367px;
-    }
-    .header hr{
-        width: 120px;
-        position: relative;
-        top: 10px;
-        left: 0px;
-    }
-    .header h2{
-        top: -10px;
-        font-size: 25px;
-        font-weight: bold;
-    } 
-    .logos, .visual, .layout{
-        margin-right: 0px;
-    }
-    .logos{
-        position: absolute;
-        top: 540px;
-        left:20px;
-     }
-     .visual{
-        position: absolute;
-        top: 540px;
-        left:160px;
-     }
-     .layout{
-        position: absolute;
-        top: 540px;
-        left:300px;
-     }
-
-     /*footer*/
-    .contact{
-        width: 100%;
-        height:500px;
-    }
-    .contact hr{
-        left: 150px;
-    }
-    .contact h1{
-        position: absolute;
-        top: 80px;
-        left: 130px;
-    }
-    .contact p{
-        width: 300px;
-        left: 55px;
-        top: 150px;
-    }
-    #tell p{
-        position: absolute;
-        left: 90px;
-        top: 270px;
-    }
-    #tell img{
-        position: absolute;
-        left: 140px;
-        top: 285px;
-    }
-    #email p{
-        position: absolute;
-        left: 90px;
-        top: 310px;
-    }
-    #email img{
-        position: absolute;
-        left: 110px;
-        top:328px;
-    }
-    #socialmedia{
-        position: absolute;
-        left: 140px;
-        top: 380px;
-    } 
-}
 
