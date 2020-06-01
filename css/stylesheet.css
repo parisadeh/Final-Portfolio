@@ -104,10 +104,12 @@ html{
 }
 @keyframes line{
     from{
-        transform: translateX(-600px);
+        transform: translateX(-300%);
+        transform: translateY(-300%);
     }
     to{
         transform: translateX(0);
+        transform: translateY(0);
     }
 }
 .Header h1{
@@ -227,15 +229,15 @@ opacity:1;
 .ux{
     animation: ux 1s;
     position: absolute;
-   top: 77%;
+   top: 75%;
    left:30%;
 }
 @keyframes ux{
     from{
-        top: 800px;
+        top: 120%;
     }
     to{
-        top: 540px;
+        top: 75%;
     } 
 }
 .graphic:hover .overlay2{
@@ -258,15 +260,15 @@ opacity:1;
 .graphic{
     animation: graphic 1.5s;
     position: absolute;
-   top: 77%;
-   left:47%;
+   top: 75%;
+   left:46%;
 }
 @keyframes graphic{
     from{
-        top: 900px;
+        top: 120%;
     }
     to{
-        top: 540px;
+        top: 75%;
     } 
 }
 .motion:hover .overlay3{
@@ -289,15 +291,15 @@ opacity:1;
 .motion{
     animation: motion 2s;
     position: absolute;
-    top: 77%;
-   left:65%;
+    top: 75%;
+   left:63%;
 }
 @keyframes motion{
     from{
-        top: 1000px;
+        top: 120%;
     }
     to{
-        top: 540px;
+        top: 75%;
     } 
 }
 
