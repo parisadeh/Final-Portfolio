@@ -213,8 +213,8 @@ opacity:1;
 } */
 .overlay{
     position: absolute;
-    top:0px;
-    left:0px;
+    top:0;
+    left:0;
     text-align: center;
     transition: all 0.5s ease-in-out;
 }
@@ -249,8 +249,8 @@ opacity:1;
     }
     .overlay2{
         position: absolute;
-        top:0px;
-        left:0px;
+        top:0;
+        left:0;
         text-align: center;
         transition: all 0.5s ease-in-out;
     }
@@ -281,8 +281,8 @@ opacity:1;
     }
     .overlay3{
         position: absolute;
-        top:0px;
-        left:0px;
+        top:0;
+        left:0;
         text-align: center;
         transition: all 0.5s ease-in-out;
     }
