@@ -153,15 +153,20 @@ html{
 
 /*Images*/
 .container{
-    display:flexbox;
-    justify-content: space-around;
+    display:flex;
 }
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+  
 #pic1{
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 550px;
-    left: 220px;
+    left: 12%;
     width: 457px;
     height: 457px;
     border: 1px solid #707070;
