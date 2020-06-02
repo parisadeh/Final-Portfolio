@@ -295,7 +295,7 @@ opacity:1;
     animation: motion 2s;
     position: absolute;
     top: 30%;
-   left:63%;
+   left:62%;
 }
 @keyframes motion{
     from{
