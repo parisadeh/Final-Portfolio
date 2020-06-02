@@ -208,9 +208,9 @@ button:hover{
     opacity:0;
     
 }
-.ux:hover .overlay{
+/* .ux:hover .overlay{
 opacity:1;
-}
+} */
 .overlay{
     position: absolute;
     top:0px;
@@ -221,6 +221,7 @@ opacity:1;
 .overlay p{
     color:  #5EAAB0;
     font-weight: bold;
+    width: 100%;
 }
 .overlay a{
     text-decoration: none;
@@ -256,6 +257,7 @@ opacity:1;
     .overlay2 p{
         color:  #5EAAB0;
         font-weight: bold;
+        width: 100%;
     }
     .overlay2 a{
         text-decoration: none;
@@ -287,6 +289,7 @@ opacity:1;
     .overlay3 p{
         color:  #5EAAB0;
         font-weight: bold;
+        width: 100%;
     }
     .overlay3 a{
         text-decoration: none;
