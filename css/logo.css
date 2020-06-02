@@ -142,8 +142,8 @@ html{
     width: 65px;
     float: right;
     position: fixed;
-    top: 550px;
-    left: 1250px;
+    top: 80%;
+    left: 80%;
     border-radius: 100%;
     display: flex;
     box-shadow: 0 3px 6px #00000029;
@@ -155,36 +155,31 @@ html{
 .container{
     display:flex;
 }
-.column {
-    flex: 33.33%;
-    padding: 5px;
-    
-  }
-  
+
 #pic1{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
     top: 550px;
-    left: 12%;
-    width: 457px;
-    height: 457px;
+    left: 15%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
     cursor: pointer;
 }
 #pic1 img{
-    width: 457px;
-    height: 457px;
-    
+    width: 100%;
+    height: 100%;
 }
 .overflow{
     background-color: rgba(94, 170, 176, 0.74);
-    width: 458px;
-    height: 120px;
+    width: 100%;
+    height: auto;
     align-items: center;
     opacity:0;
     position: absolute;
-    top: 338px;
+    top: 74.5%;
 }
 .overflow p{
     font-size: 20px;
@@ -199,19 +194,18 @@ html{
 #pic2{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
     top: 550px;
-    left: 750px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    left: 50%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic2 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic2:hover .overflow{
     opacity:1;
@@ -220,20 +214,19 @@ html{
 #pic3{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 1080px;
-    left: 220px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 1050px;
+    left: 15%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 
 #pic3 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic3:hover .overflow{
     opacity:1;
@@ -242,19 +235,18 @@ html{
 #pic4{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 1080px;
-    left: 750px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 1050px;
+    left: 50%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic4 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic4:hover .overflow{
     opacity:1;
@@ -263,20 +255,19 @@ html{
 #pic5{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 1610px;
-    left: 220px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 1550px;
+    left: 15%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 
 #pic5 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic5:hover .overflow{
     opacity:1;
@@ -285,19 +276,18 @@ html{
 #pic6{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 1610px;
-    left: 750px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 1550px;
+    left: 50%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic6 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic6:hover .overflow{
     opacity:1;
@@ -306,19 +296,18 @@ html{
 #pic7{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 2140px;
-    left: 220px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 2050px;
+    left: 15%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic7 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic7:hover .overflow{
     opacity:1;
@@ -327,19 +316,18 @@ html{
 #pic8{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 2140px;
-    left: 750px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 2050px;
+    left: 50%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic8 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 #pic8:hover .overflow{
@@ -349,19 +337,18 @@ html{
 #pic9{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 2670px;
-    left: 220px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 2550px;
+    left: 15%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic9 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic9:hover .overflow{
     opacity:1;
@@ -370,19 +357,18 @@ html{
 #pic10{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 2670px;
-    left: 750px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 2550px;
+    left: 50%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic10 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 #pic10:hover .overflow{
@@ -392,19 +378,18 @@ html{
 #pic11{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 3200px;
-    left: 220px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 3050px;
+    left: 15%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic11 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic11:hover .overflow{
     opacity:1;
@@ -412,19 +397,18 @@ html{
 #pic12{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 3200px;
-    left: 750px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 3050px;
+    left: 50%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic12 img{
-    width: 430px;
-    height: 430px;
+    width: 100%;
+    height: 100%;
 }
 
 #pic12:hover .overflow{
@@ -434,19 +418,18 @@ html{
 #pic13{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 3730px;
-    left: 220px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 3550px;
+    left: 15%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic13 img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 #pic13:hover .overflow{
     opacity:1;
@@ -454,19 +437,18 @@ html{
 #pic14{
     display: flex;
     flex-direction: column;
+    float: left;
     position: absolute;
-    top: 3730px;
-    left: 750px;
-    cursor: pointer;
-    width: 457px;
-    height: 457px;
+    top: 3550px;
+    left: 50%;
+    width: 32%;
+    height: auto;
     border: 1px solid #707070;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 #pic14 img{
-    width: 430px;
-    height: 430px;
+    width: 100%;
+    height: 100%;
 }
 
 #pic14:hover .overflow{
@@ -481,7 +463,7 @@ html{
     position: absolute;
     width: 100%;
     height:450px;
-    top:4250px;
+    top:4050px;
     text-align: center;
     background-color:  #5EAAB0;
 }
