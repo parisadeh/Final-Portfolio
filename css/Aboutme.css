@@ -162,11 +162,12 @@ html{
 }
 
 .paragraph{
+    display: flexbox;
     text-align: justify;
     width: 63%;
     margin: 20px;
     position: absolute;
-    top: 75%;
+    top: 530px;
     left: 18%;
     animation:paragraph 1.5s;
 }
@@ -185,23 +186,23 @@ html{
 .Techskills h2{
     position: absolute;
     left: 46.5%;
-    top: 123%;
+    top: 860px;
 }
 .Techskills hr{
     border: 1px solid #D8AB86;
     width: 10%;
     position: absolute;
-    top: 130%;
-    left:45%
+    top:910px;
+    left:45%;
 }
 #left{
     position: absolute;
-    top: 135%;
+    top: 940px;
     left: 28%;
 }
 #right{
     position: absolute;
-    top: 135%;
+    top: 940px;
     left: 60%;
 }
 
@@ -212,24 +213,24 @@ html{
 .strength h2{
     position: absolute;
     left: 44%;
-    top: 155%;
+    top: 1100px;
 }
 .strength hr{
     border: 1px solid #D8AB86;
     width: 10%;
     position: absolute;
-    top: 163%;
+    top: 1150px;
     left:45%
 }
 
 #leftpart{
     position: absolute;
-    top: 168%;
+    top: 1180px;
     left: 28%;
 }
 #rightpart{
     position: absolute;
-    top: 168%;
+    top: 1180px;
     left: 60%;
 }
 
@@ -241,60 +242,59 @@ html{
 .education h2{
     position: absolute;
     left: 46.5%;
-    top: 192%;
+    top: 1350px;
 }
 .education hr{
     border: 1px solid #D8AB86;
     width: 10%;
     position: absolute;
-    top: 200%;
+    top: 1400px;
     left:45%;
 }
 .education p{
     text-align: center;
-    
 }
 .title h2{
     font-weight: bold;
     position: absolute;
-    top: 202%;
-    left:1%;
+    top: 1420px;
+    left:0;
     width: 100%;
     text-align: center;
 }
 .title p{
     position: absolute;
-    top: 208%;
-    left:1%;
+    top: 1460px;
+    left:0;
     width: 100%;
 }
 .title1 h2{
     font-weight: bold;
     position: absolute;
-    top: 214%;
+    top: 1500px;
     width: 100%;
-    left: 1%;
+    left: 0;
     text-align: center;
 }
 .title1 p{
     position: absolute;
-    top: 220%;
-    left: 1%;
+    top: 1540px;
+    left: 0;
     width: 100%;
 }
 .title2 h2{
     font-weight: bold;
     position: absolute;
-    top: 226%;
+    top: 1590px;
     width: 100%;
-    left: 1%;
+    left: 0;
     text-align: center;
 }
 .title2 p{
     position: absolute;
-    top: 232%;
+    top: 1630px;
     width: 100%;
-    left: 1%;
+    left: ;
 }
 
 button{
@@ -304,8 +304,8 @@ button{
     background-color: #5EAAB0;
     color: white;
     position: absolute;
-    top: 245%;
-    left: 44%;
+    top: 1740px;
+    left: 43%;
     cursor: pointer;
     animation: button 1.5s;
 }
@@ -339,7 +339,7 @@ button:hover{
     position: absolute;
     width: 100%;
     height:450px;
-    top:260%;
+    top:1840px;
     text-align: center;
     background-color:  #5EAAB0;
 }
