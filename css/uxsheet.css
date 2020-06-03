@@ -145,23 +145,23 @@ html{
    
 }
 #quail img{
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     border: 1px solid #707070;
     position: absolute;
     top: 550px;
-    left: 168px;
+    left: 12%;
 }
 .overflow{
     display: flex;
     flex-direction: column;
     background-color: rgba(94, 170, 176, 0.74);
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     align-items: center;
     position: absolute;
     top: 550px;
-    left: 168px;
+    left: 12%;
     opacity:0;
     cursor: pointer;
 }
@@ -178,6 +178,7 @@ html{
     width: 197px;
     position: relative;
     top: -30px;
+    margin-bottom: 15px;
 }
 .casestudy a{
     text-decoration: none;
@@ -189,23 +190,23 @@ html{
 }
 
 #mojo img{
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     border: 1px solid #707070;
     position: absolute;
     top: 550px;
-    left: 560px;
+    left: 39%;
 }
 .overflow1{
     display: flex;
     flex-direction: column;
     background-color: rgba(94, 170, 176, 0.966);
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     align-items: center;
     position: absolute;
     top: 550px;
-    left: 560px;
+    left: 39%;
     opacity: 0;
 }
 .overflow1 p{
@@ -216,23 +217,23 @@ html{
 }
 
 #epa img{
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     border: 1px solid #707070;
     position: absolute;
     top: 550px;
-    left: 950px;
+    left: 66%;
 }
 .overflow2{
     display: flex;
     flex-direction: column;
     background-color: rgba(94, 170, 176, 0.966);
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     align-items: center;
     position: absolute;
     top: 550px;
-    left: 950px;
+    left: 66%;
     opacity: 0;
     cursor: pointer;
 }
@@ -244,23 +245,23 @@ html{
 }
 
 #cofas img{
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     border: 1px solid #707070;
     position: absolute;
     top: 930px;
-    left: 168px;
+    left: 12%;
 }
 .overflow3{
     display: flex;
     flex-direction: column;
     background-color: rgba(94, 170, 176, 0.966);
-    width: 324px;
-    height: 324px;
+    width: 23%;
+    height: auto;
     align-items: center;
     position: absolute;
     top: 930px;
-    left: 168px;
+    left: 12%;
     opacity: 0;
 }
 .overflow3 p{
