@@ -138,66 +138,73 @@ html{
     }
 }
 .container{
-    display:flexbox;
-    justify-content: space-around;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "pic1 pic1"
+    "pic2 pic3";
 }
-#pic1{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 200px;
-    width: 995px;
-    margin-left: auto;
-    margin-right: auto;
+.pic1{
+    grid-area: pic1;
+    position: absolute;
+    top:550px;
+    left: 14%;
+    width: 70%;
+    height: 452px;
     border: 1px solid #707070;
     cursor: pointer;
 }
-#pic1 img{
-    width: 995px;
+.pic1 img{
+    width: 100%;
+    height:auto;
     margin-left: auto;
     margin-right: auto;
     
 }
 .overflow{
     background-color: rgba(94, 170, 176, 0.74);
-    width: 995px;
-    height: 90px;
+    width: 100%;
+    height: 20%;
     align-items: center;
+    justify-items: center;
     opacity:0;
     position: absolute;
-    top: 363px;
+    top: 80%;
+    
 }
 .overflow p{
     font-size: 20px;
     font-weight: bold;
-    padding: 10px 30px;
+    padding: 10px;
     color: white;
+    margin-left: 10px;
 }
-#pic1:hover .overflow{
+.pic1:hover .overflow{
     opacity:1;
 }
 
-#pic2{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 270px;
-    left:215px;
-    width: 457px;
+.pic2{
+    grid-area: pic2;
+    position: absolute;
+    top: 1050px;
+    left: 14%;
+    width: 33%;
+    height: 426px;
     border: 1px solid #707070;
     cursor: pointer;
 }
-#pic2 img{
-    width: 457px;
+.pic2 img{
+    width: 100%;
+    height:auto;
 }
 .overflow2{
     background-color: rgba(94, 170, 176, 0.74);
-    width: 458px;
-    height: 90px;
+    width: 100%;
+    height: 20%;
     align-items: center;
     opacity:0;
     position: absolute;
-    top: 327px;
+    top: 80%;
 }
 .overflow2 p{
     font-size: 20px;
@@ -205,23 +212,24 @@ html{
     padding: 10px 30px;
     color: white;
 }
-#pic2:hover .overflow2{
+.pic2:hover .overflow2{
     opacity:1;
 }
-#pic3{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -148px;
-    left:750px;
-    width: 457px;
+.pic3{
+    grid-area: pic3;
+    position: absolute;
+    top: 1050px;
+    left: 51%;
+    width: 33%;
+    height: 426px;
     border: 1px solid #707070;
     cursor: pointer;
 }
-#pic3 img{
-    width: 457px;
+.pic3 img{
+    width: 100%;
+    height: auto;
 }
-#pic3:hover .overflow2{
+.pic3:hover .overflow2{
     opacity:1;
 }
 
