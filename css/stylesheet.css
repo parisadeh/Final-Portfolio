@@ -368,5 +368,88 @@ opacity:1;
 #socialmedia img{
     margin: 10px;
 }
+/*media quary*/
+@media screen and (max-width:600px){
+
+    .nav ul{
+        position: absolute;
+        top: 30px;
+        display: flex-inverse;
+        justify-content: space-around;
+    }
+    .nav li{
+        flex-direction: row;
+        margin-left: 40px;
+        margin-top: 10px; 
+        font-size: 15px;
+        align-content: center;
+    }
+    
+    #homeicon{
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .nav img{
+        position: absolute;
+        left: -9px;
+        top: 45px;
+        width: 30px;
+    }
+    .Header hr{
+        width: 15%;
+        position: absolute;
+        top: 15%;
+        left: 42%;
+    }
+    .Header h2{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    .paragraph{
+        font-size: 20px;
+        width: 50%;
+    }
+    .buttons{
+        display: flexbox;
+        flex-direction: row;
+        position: absolute;
+        top: 500px;
+        left: -10%;
+       justify-content: space-between;
+    }
+    .buttons img{
+        width: 80px;
+    }
+    .ux, .graphic, .motion{
+        margin-right: 100px;
+    }
+    .ux{
+      position: absolute;
+       top: 30%;
+       left: 20%;
+    }
+    .graphic{
+       top: 30%;
+       left:46%;
+    }
+    .motion{
+        top: 30%;
+       left:80%;
+    }
+    .contact{
+        height:550px;
+        top:720px;
+        
+    }
+    .contact hr{
+        width: 25%;
+    }
+    .contact p{
+        width: 55%;
+        
+    }
+}
 
 
