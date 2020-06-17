@@ -228,5 +228,67 @@ html{
 #socialmedia img{
     margin: 10px;
 }
+/*media quary*/
+@media screen and (max-width:600px){
+    .nav ul{
+        position: absolute;
+        top: 30px;
+        display: flex-inverse;
+        justify-content: space-around;
+    }
+    .nav li{
+        flex-direction: row;
+        margin-left: 40px;
+        margin-top: 10px; 
+        font-size: 15px;
+        align-content: center;
+    }
+    
+    #homeicon{
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .nav img{
+        position: absolute;
+        left: -9px;
+        top: 45px;
+        width: 30px;
+    }
+    .header hr{
+        width: 25%;
+    }
+    .container{
+        width: 80%;
+    }
+    .pic1 img{
+        width: 100%;
+    }
+    .pic2 img{
+        width: 100%;
+    }
+    .pic3 img{
+        width: 100%;
+    }
+    .pic4 img{
+        width: 100%;
+        top: 620px;
+    left: 0%;
+    }
+    .pic5 img{
+        width: 100%;
+        position: absolute;
+        top: 915px;
+    }
 
+    .contact{
+        height:550px;
+        top:1750px;
+    }
+    .contact hr{
+        width: 25%;
+    }
+    .contact p{
+        width: 55%;
+    }
+}
 
