@@ -296,39 +296,30 @@ html{
 }
 /*media quary*/
 @media screen and (max-width:600px){
+    .nav ul{
+        position: absolute;
+        top: 30px;
+        display: flex-inverse;
+        justify-content: space-around;
+    }
     .nav li{
-        font-size: 15px;
-        margin-left: 30px;
+        flex-direction: row;
+        margin-left: 40px;
         margin-top: 10px; 
+        font-size: 15px;
+        align-content: center;
     }
-    .navigationbar{
-        margin-right: 80px;
-    }
+    
     #homeicon{
         margin-top: 0px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
-
-    .header{
-        width: auto;
-        position: relative;
-        top: 120px;
-        text-align: center;
+    .nav img{
+        position: absolute;
+        left: -9px;
+        top: 45px;
+        width: 30px;
     }
-    #headerPart{
-        height: 367px;
-    }
-    .header hr{
-        width: 120px;
-        position: relative;
-        top: 10px;
-        left: 0px;
-    }
-    .header h2{
-        top: -10px;
-        font-size: 25px;
-        font-weight: bold;
-    } 
     /*videos*/
 video{
     width:350px;
@@ -383,47 +374,14 @@ video{
 }
  /*footer*/
  .contact{
-    width: 100%;
-    height:500px;
-    top: 3120px;
+    height:550px;
+    top:3100px;
 }
 .contact hr{
-    left: 150px;
-}
-.contact h1{
-    position: absolute;
-    top: 80px;
-    left: 130px;
+    width: 25%;
 }
 .contact p{
-    width: 300px;
-    left: 55px;
-    top: 150px;
+    width: 55%;
 }
-#tell p{
-    position: absolute;
-    left: 90px;
-    top: 270px;
-}
-#tell img{
-    position: absolute;
-    left: 140px;
-    top: 285px;
-}
-#email p{
-    position: absolute;
-    left: 90px;
-    top: 310px;
-}
-#email img{
-    position: absolute;
-    left: 110px;
-    top:328px;
-}
-#socialmedia{
-    position: absolute;
-    left: 140px;
-    top: 380px;
-} 
 
 }
