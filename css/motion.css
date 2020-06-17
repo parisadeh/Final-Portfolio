@@ -320,62 +320,68 @@ html{
         top: 45px;
         width: 30px;
     }
+    .header hr{
+        width: 25%;
+        
+    }
     /*videos*/
 video{
-    width:350px;
+    width:300px;
+}
+.videocontainer{
+    display:flexbox;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    
 }
 .video1{
     position: absolute;
     top: 550px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    left: 12%;
+    /* left: 35px; */
 }
 .video2{
     position: absolute;
-    top: 870px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    top: 820px;
+    left: 12%;
 }
 .video3{
     position: absolute;
-    top: 1190px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    top: 1090px;
+    left: 12%;
 }
 .video4{
     position: absolute;
-    top: 1510px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    top: 1360px;
+    left: 12%;
 }
 .video5{
     position: absolute;
-    top: 1830px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    top: 1630px;
+    left: 12%;
 }
 .video6{
     position: absolute;
-    top: 2150px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    top: 1900px;
+    left: 12%;
 }
 .video7{
     position: absolute;
-    top: 2470px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    top: 2170px;
+    left: 12%;
 }
 .video8{
     position: absolute;
-    top: 2790px;
-    left: 35px;
-    border: solid 1px darkgrey;
+    top: 2440px;
+    left: 12%;
 }
  /*footer*/
  .contact{
     height:550px;
-    top:3100px;
+    top:2750px;
 }
 .contact hr{
     width: 25%;
