@@ -324,5 +324,66 @@ opacity:1;
     margin: 10px;
 }
 
+/*media quary*/
+@media screen and (max-width:600px){
+
+    .nav ul{
+        position: absolute;
+        top: 30px;
+        display: flex-inverse;
+        justify-content: space-around;
+    }
+    .nav li{
+        flex-direction: row;
+        margin-left: 40px;
+        margin-top: 10px; 
+        font-size: 15px;
+        align-content: center;
+    }
+    
+    #homeicon{
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .nav img{
+        position: absolute;
+        left: -9px;
+        top: 45px;
+        width: 30px;
+    }
+    .header hr{
+        width: 25%;
+    }
+    .buttons img{
+        width: 80px;
+    }
+    .logos, .visual, .layout{
+        margin-right: 100px;
+    }
+    .logos{
+      position: absolute;
+       top: 30%;
+       left: 20%;
+    }
+    .visual{
+       top: 30%;
+       left:46%;
+    }
+    .layout{
+        top: 30%;
+       left:80%;
+    }
+    .contact{
+        height:550px;
+        top:720px;
+    }
+    .contact hr{
+        width: 25%;
+    }
+    .contact p{
+        width: 55%;
+    }
+}
+
 
 
